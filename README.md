@@ -21,7 +21,9 @@ PAC scripts for proxies
 
 ## crontab定时任务
 
+```shell
 0 21 * * 6 wget https://github.com/ironyhex/pac/releases/latest/download/pac-gfwlist-17mon.txt -O autoproxy.pac -e https_proxy=192.168.2.105:8123
+```
 
 ## 贡献
 
