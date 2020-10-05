@@ -2,7 +2,7 @@
 // Source: https://github.com/iBug/pac
 // Time: @@TIME@@
 
-var proxy = __PROXY__;
+var proxy = 'PROXY 192.168.2.105:8123';
 var direct = "DIRECT";
 
 function belongsToSubnet(host, list) {
