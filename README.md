@@ -19,6 +19,10 @@ PAC scripts for proxies
 
 本代码是为 Shadowsocks Windows 4.1.9 及以上版本设计的，若要在旧版本或使用其他代理软件中使用，请手动修改文件第 5 行 `__PROXY__` 为你的代理地址，详情见 [shadowsocks-windows#2761](https://github.com/shadowsocks/shadowsocks-windows/issues/2761)。
 
+## crontab定时任务
+
+0 21 * * 6 wget https://github.com/ironyhex/pac/releases/latest/download/pac-gfwlist-17mon.txt -O autoproxy.pac -e https_proxy=192.168.2.105:8123
+
 ## 贡献
 
 本项目包含两部分
