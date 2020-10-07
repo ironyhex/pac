@@ -10,7 +10,6 @@ import gfwlist
 
 
 SOURCES = {
-    'ipdeny.com': 'http://www.ipdeny.com/ipblocks/data/aggregated/cn-aggregated.zone',
     '17mon': 'https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt',
     'cloudflare': 'https://raw.githubusercontent.com/ironyhex/pac/master/cloudflare',
 }
